@@ -1,0 +1,28 @@
+html,body{
+	height:100%;
+	background-image:url(../img/bg-maps.png);
+	background-size:cover;
+	background-position:center;
+}
+.login .container .col-md-8{
+	margin:0 auto;
+}
+.login .btn-block{
+	margin:5px 0;
+}
+.login-panel{
+	background-color:#FFF;
+	margin-top:15%;
+	padding:30px;
+	border-radius:10px;
+	box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.header{
+	background-color:#343a40!important;
+	color:#FFF;
+	height:80px;
+	text-align:center;
+}
+.header img{
+	height:80px;
+}

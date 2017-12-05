@@ -1,0 +1,47 @@
+ul#result{
+	padding:5px;
+}
+.border-result-list{
+	width:100%;
+	border:1px solid #ddd;
+	border-radius:5px;
+	margin:15px 0;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+#result tr{
+	cursor:pointer;
+}
+.pesquisar-estabelecimento{
+	max-width:650px;
+	margin:0 auto;
+}
+.nova-avaliacao{
+	max-width:650px;
+	margin:0 auto;
+	display: none;
+}
+.buscar-estabelecimento .novo-estabelecimento,.buscar-estabelecimento #result-list-title{
+	display:none;
+}
+.buscar-estabelecimento .btn-clear-estabelecimento{
+	margin-left:5px;
+}
+/*Modal*/
+.modal-content .buscar-estabelecimento{
+	max-width: 650px;
+	margin:0 auto;
+}
+.buscar-estabelecimento #result-list{
+	text-align:left;
+	max-height:250px;
+}
+.modal-content .cadastro-estabelecimento{
+	max-width: 650px;
+	margin:0 auto;
+}
+/*Media Query*/
+@media screen and (max-width:440px){
+	.buscar-estabelecimento .d-flex{display:inline-block !important;}
+	.buscar-estabelecimento .btn-clear-estabelecimento{margin-top:5px;}
+}

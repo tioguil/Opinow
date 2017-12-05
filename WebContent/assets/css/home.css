@@ -1,0 +1,25 @@
+#lista-estabelecimento ul.list{
+	border:0;
+	padding:0;
+	list-style:none;
+}
+.pagination{
+	list-style:none;
+	display:flex;
+}
+.pagination li a{
+	position:relative;
+	display:block;
+	padding:.5rem .75rem;
+	margin-left:-1px;
+	line-height:1.25;
+	color:#007bff;
+	background-color:#fff;
+	border:1px solid #ddd;
+}
+.pagination li.active a{
+	z-index:2;
+	color:#fff;
+	background-color:#007bff;
+	border-color:#007bff;
+}

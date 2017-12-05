@@ -1,0 +1,105 @@
+body{
+	padding-top:82px !important;
+}
+/*Navbar*/
+nav .dropdown-user .nav-link{
+	color:#3a3a3a !important;
+}
+
+nav .navbar-brand img{
+	height:42px;
+}
+
+nav .navbar-nav hr{
+	margin-top:3px;
+	margin-bottom:3px;
+}
+/*Accordion*/
+#accordion .card-header{
+	border-bottom:unset!important;
+}
+#accordion .card-block{
+	padding:10px;
+}
+/*Estrelas de Avaliacao*/
+.estrelas input[type=radio]{
+	display:none;
+}
+.estrelas label i.fa:before{
+	content:'\f005';
+	color:#FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before{
+	color:#CCC;
+}
+/*Scrollbar-jQuery Autocomplete*/
+.ui-autocomplete{
+	max-height:125px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+* html .ui-autocomplete{
+	height:125px;
+}
+/*Media Queries*/
+@media (min-width:992px){
+	body{padding-top:56px;}
+}
+@media screen and (max-width:991px){
+	nav ul{text-align:center;}
+	nav .dropdown-toggle{display:none;}
+	nav .dropdown-menu{display:inline-block;background-color:unset;background-color:unset;background-clip:unset;border:unset;border-radius:unset;text-align:center;}
+	nav .dropdown-user .nav-link{color:rgba(255,255,255,.5) !important;}
+	nav .dropdown-user .nav-link i{display:none;}
+	nav .dropdown-user{margin:0;padding:0;}
+	nav hr{border-top:1px solid #aaa;margin:0;}
+}
+
+.progress .bg-white {
+	background:#fff;
+}
+.page-404 {
+    width: 100%;
+    height: 100%;
+	max-height:950px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    text-align:center;
+	float:left;
+	padding:10% 0px;
+}
+
+.not-found h1 {
+	text-align: center;
+	font-size: 240px;
+	line-height: 210px;
+	font-weight: 600;
+	letter-spacing: -5px;
+	color:#fff;
+}
+.not-found h3 {
+	text-align: center;
+	font-size: 40px;
+	line-height: 100px;
+	font-weight: 300;
+	text-transform:uppercase;
+	color:#fff;
+}
+.not-found p {
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
+}
+.col-sm-2 h2{
+	font-size: 1rem;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 403px){
+	.content .mobile .h2 div:nth-of-type(2) {display:show;font-size:15px;margin-top:0px;}
+}
