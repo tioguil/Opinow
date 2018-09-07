@@ -35,7 +35,7 @@ public class RecuperarSenha implements Command {
 			String host = "smtp.gmail.com";
 			String port = "587";
 			String mailFrom = "opinowltda@gmail.com";
-			String password = "nilone123";
+			String password = "123456";
 
 			// Destinatario e Assunto do email
 			String mailTo = usuario.getEmail();
